@@ -39,7 +39,13 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  new_hash
+  pp(new_hash)
 end
 
-p nyc_pigeon_organizer(pigeon_data)
+# p nyc_pigeon_organizer(pigeon_data)
+
+
+# {"Theo"=>{:color=>["purple", "grey"], :gender=>["male"], :lives=>["Subway"]}, "Peter Jr."=>{:color=>["purple", "grey"], :gender=>["male"], :lives=>["Library"]}, "Lucky"=>{:color
+# =>["purple"], :gender=>["male"], :lives=>["Central Park"]}, "Ms. K"=>{:color=>["grey", "white"], :gender=>["female"], :lives=>["Central Park"]}, "Queenie"=>{:color=>["white", "b
+# rown"], :gender=>["female"], :lives=>["Subway"]}, "Andrew"=>{:color=>["white"], :gender=>["male"], :lives=>["City Hall"]}, "Alex"=>{:color=>["white", "brown"], :gender=>["male"]
+# , :lives=>["Central Park"]}}

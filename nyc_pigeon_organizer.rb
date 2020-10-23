@@ -30,11 +30,11 @@ def nyc_pigeon_organizer(data) # define variable that takes nested hash as argum
         end
 
         if !new_hash[name].has_key?(key1) # if new_hash[name] does not have a key with the value of key1
-          new_hash[name][property] = [] # new_hash[name][property] is set equal to an empty array
+          new_hash[name][key1] = [] # new_hash[name][property] is set equal to an empty array
         end
 
-        if !new_hash[name][property].include?(key2) # if new_hash[name][property] includes a value equal to key2
-          new_hash[name][property] << key2.to_s # convert value of key2 into a string and shovel into empty array new_hash[name][property]
+        if !new_hash[name][key1].include?(key2) # if new_hash[name][property] includes a value equal to key2
+          new_hash[name][key1] << key2.to_s # convert value of key2 into a string and shovel into empty array new_hash[name][property]
         end
       end
     end
